@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { ModeToggle } from "./ui/theme-switcher";
-import { link } from "fs/promises";
 
 const page_links = [
 	{
@@ -17,16 +16,24 @@ const page_links = [
 		href: "/",
 	},
 	{
+		name: "Rólam",
+		href: "/about",
+	},
+	{
+		name: "Blog",
+		href: "/blog",
+	},
+	{
 		name: "Témák",
 		links: [
-			{
-				name: "Téma 1",
-				href: "/blogs/blog-1",
-			},
-			{
-				name: "Téma 2",
-				href: "/blogs/blog-2",
-			},
+			// {
+			// 	name: "Téma 1",
+			// 	href: "/blogs/blog-1",
+			// },
+			// {
+			// 	name: "Téma 2",
+			// 	href: "/blogs/blog-2",
+			// },
 		],
 	},
 ];

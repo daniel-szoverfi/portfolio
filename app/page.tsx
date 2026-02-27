@@ -3,6 +3,7 @@ import Image from "next/image";
 import SplitText from "@/components/gasp/split-text";
 import AnimatedContent from "@/components/gasp/animated-content";
 import FadeContent from "@/components/gasp/fade-content";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -27,8 +28,12 @@ export default function Home() {
 						adatokat és az életvitelt is saját magam irányítom.
 					</p>
 					<div className="flex gap-4">
-						<Button variant="default">Témák</Button>
-						<Button variant="outline">Rólam</Button>
+						<Link href="/blog">
+							<Button variant="default">Blog</Button>
+						</Link>
+						<Link href="/about">
+							<Button variant="outline">Rólam</Button>
+						</Link>
 					</div>
 				</FadeContent>
 			</div>
