@@ -23,12 +23,13 @@ const page_links = [
 		name: "Blog",
 		href: "/blog",
 	},
+
 	{
-		name: "Testing",
+		name: "Egyéb",
 		links: [
 			{
-				name: "Testing",
-				href: "/testing",
+				name: "Feladatok",
+				href: "/feladatok",
 			},
 		],
 	},

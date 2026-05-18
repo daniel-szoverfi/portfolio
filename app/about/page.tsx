@@ -3,11 +3,11 @@ import FadeContent from "@/components/gasp/fade-content";
 
 export default function About() {
 	return (
-		<div className="flex min-h-screen flex-col items-center justify-start bg-background px-20 pt-30 w-full">
-			<div className="flex flex-col items-start justify-start gap-4 w-2xl">
+		<div className="flex min-h-screen flex-col items-center justify-start bg-background px-4 sm:px-8 lg:px-20 pt-20 sm:pt-24 lg:pt-30 w-full">
+			<div className="flex flex-col items-start justify-start gap-4 w-full max-w-2xl">
 				<SplitText
 					text="Rólam"
-					className="text-5xl font-bold leading-relaxed"
+					className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-relaxed"
 					textAlign="left"
 					duration={1.5}
 					threshold={0.1}

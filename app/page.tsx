@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<div className="flex min-h-screen flex-col items-center justify-center bg-background px-20 w-full">
-			<div className="flex flex-col items-start justify-center gap-4 max-w-3xl">
+		<div className="flex min-h-screen flex-col items-center justify-top md:justify-center bg-background px-4 sm:px-8 lg:px-20 pt-25 md:pt-0 w-full">
+			<div className="flex flex-col items-start justify-center gap-4 w-full max-w-3xl">
 				<SplitText
 					text="Üdvözöllek a főoldalon!"
-					className="text-8xl font-bold"
+					className="text-4xl sm:text-6xl lg:text-8xl font-bold"
 					textAlign="left"
 					duration={1.5}
 					threshold={0.1}
@@ -19,7 +19,7 @@ export default function Home() {
 					duration={1.5}
 					delay={0.5}
 					threshold={0.1}>
-					<p className="text-sm w-150 text-muted-foreground">
+					<p className="text-sm w-full text-muted-foreground">
 						Ennak a weboldalnak a célja, hogy bemutathassam rajta a munkáimat,
 						posztoljam a blogjaimat és kicsit visszatérjek a social media
 						oldalak centralizált világából abba a világba, ahol a személyes
