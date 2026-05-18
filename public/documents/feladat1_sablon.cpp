@@ -21,7 +21,7 @@ int main() {
         cout << endl;
     }
 
-    // Törlendő sor indexének bekérése, írd meg a beolvasást! ...
+    // Törlendő sor bekérése, írd meg a beolvasást! ...
     int k;
 
     // ── Ide írd a kódod ─────────────────────────────────────
@@ -42,7 +42,7 @@ int main() {
     return 0;
 }
 
-// ── Példafutás (k = 2) ────────────────────────────────────────
+// ── Példafutás (k = 3) ────────────────────────────────────────
 //
 //  Kiindulasi matrix:
 //   1   2   3   4   5
@@ -51,9 +51,9 @@ int main() {
 //  16  17  18  19  20
 //  21  22  23  24  25
 //
-//  Melyik sort torolod? (0-4): 2
+//  Melyik sort torolod? (0-4): 3
 //
-//  Eredmeny (a k = 2 sor torlese utan):
+//  Eredmeny (a k = 3 sor torlese utan):
 //   1   2   3   4   5
 //   6   7   8   9  10
 //  16  17  18  19  20

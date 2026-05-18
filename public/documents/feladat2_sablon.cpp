@@ -15,7 +15,7 @@ int main() {
 
 
     // ── A kódod vége ─────────────────────────────────────
-    cout << "\nEredmeny (uj oszlop a " << k << " utáni oszlop):" << endl;
+    cout << "\nEredmeny (uj oszlop a " << k + 1 << " utáni oszlop):" << endl;
     for (int i = 0; i < N; i++) {
         for (int oszlop = 0; oszlop < N + 1; oszlop++) {
             cout << m[i][oszlop];
@@ -27,7 +27,7 @@ int main() {
     return 0;
 }
 
-// ── Példafutás (k = 1, után) ──────────────
+// ── Példafutás (k = 2, után) ──────────────
 //
 //  Kiindulasi matrix:
 //   1   2   3   4   5
@@ -36,7 +36,7 @@ int main() {
 //  16  17  18  19  20
 //  21  22  23  24  25
 //
-//  Melyik oszlop után szurjuk be az ujat? (0-3): 1
+//  Melyik oszlop után szurjuk be az ujat? (1-4): 2
 //
 //  Uj oszlop ertekei:
 //    sor 0:  2 +  3 =  5
@@ -45,7 +45,7 @@ int main() {
 //    sor 3: 17 + 18 = 35
 //    sor 4: 22 + 23 = 45
 //
-//  Eredmeny (uj oszlop a k = 1 utáni oszlop):
+//  Eredmeny (uj oszlop a k = 2 utáni oszlop):
 //   1   2   5   3   4   5
 //   6   7  15   8   9  10
 //  11  12  25  13  14  15
