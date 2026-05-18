@@ -1,7 +1,7 @@
 import SplitText from "@/components/gasp/split-text";
 import FadeContent from "@/components/gasp/fade-content";
 
-export default function Home() {
+export default function About() {
 	return (
 		<div className="flex min-h-screen flex-col items-center justify-start bg-background px-20 pt-30 w-full">
 			<div className="flex flex-col items-start justify-start gap-4 w-2xl">

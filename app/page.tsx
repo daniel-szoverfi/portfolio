@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import SplitText from "@/components/gasp/split-text";
-import AnimatedContent from "@/components/gasp/animated-content";
 import FadeContent from "@/components/gasp/fade-content";
 import Link from "next/link";
 

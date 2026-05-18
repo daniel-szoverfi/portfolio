@@ -24,16 +24,12 @@ const page_links = [
 		href: "/blog",
 	},
 	{
-		name: "Témák",
+		name: "Testing",
 		links: [
-			// {
-			// 	name: "Téma 1",
-			// 	href: "/blogs/blog-1",
-			// },
-			// {
-			// 	name: "Téma 2",
-			// 	href: "/blogs/blog-2",
-			// },
+			{
+				name: "Testing",
+				href: "/testing",
+			},
 		],
 	},
 ];
