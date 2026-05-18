@@ -53,7 +53,7 @@ int main() {
 //
 //  Melyik sort torolod? (0-4): 2
 //
-//  Eredmeny (a 2. sor torlese utan):
+//  Eredmeny (a k = 2 sor torlese utan):
 //   1   2   3   4   5
 //   6   7   8   9  10
 //  16  17  18  19  20

@@ -32,7 +32,7 @@ export default function FeladatokPage() {
 		...f,
 		code: fs.readFileSync(
 			path.join(process.cwd(), "public", "documents", f.file),
-			"utf-8"
+			"utf-8",
 		),
 	}));
 
