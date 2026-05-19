@@ -2,32 +2,30 @@
 using namespace std;
 
 int main() {
-    const int N = 5;
+    // A mátrix mérete, írjuk meg a beolvasást! ...
+    int n;
 
-    // Mátrix deklarációja ...
+    // Mátrix deklarációja, írd meg a feltöltést és a kiírást is egyben! ...
+    cout << "Kiindulasi matrix:" << endl;
     
     // A k oszlop után kerül az új oszlop, írd meg a beolvasást! ...
+    cout << "\nMelyik oszlop után szurjuk be az ujat? (0-" << n - 1 << "): ";
     int k;
 
-    // ── Ide írd a kódod ─────────────────────────────────────
+    // ── Oszlop beszúrása ─────────────────────────────────────
 
 
 
 
-    // ── A kódod vége ─────────────────────────────────────
-    cout << "\nEredmeny (uj oszlop a " << k + 1 << " utáni oszlop):" << endl;
-    for (int i = 0; i < N; i++) {
-        for (int oszlop = 0; oszlop < N + 1; oszlop++) {
-            cout << m[i][oszlop];
-            if (oszlop < N) cout << "\t";
-        }
-        cout << endl;
-    }
+    // ───────────────────────────────────────
+
+    cout << "\nEredmeny (uj oszlop a k = " << k << " utáni oszlop):" << endl;
+    
 
     return 0;
 }
 
-// ── Példafutás (k = 2, után) ──────────────
+// ── Példafutás (n = 5, k = 2, után) ──────────────
 //
 //  Kiindulasi matrix:
 //   1   2   3   4   5
