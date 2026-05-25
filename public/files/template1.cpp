@@ -51,7 +51,7 @@ int main() {
 
     // TODO: Keresd meg a moduszt - melyik indexhez tartozik a legnagyobb ertek?
     //       Modusz keresese = maximumkereses a frekvenciatombben!
-    //       Kezd a moduszt 0-rol, hasonlitsd a 2..10 elemekhez.
+    //       Kezd a moduszt 1-rol, hasonlitsd a 2..10 elemekhez.
 
 
     
