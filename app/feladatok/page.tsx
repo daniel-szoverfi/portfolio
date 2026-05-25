@@ -153,7 +153,7 @@ export default function FeladatokPage() {
 											{feladat.testFile} – tesztadat megtekintése
 										</summary>
 										<div className="border-t">
-											<CodeBlock code={feladat.testCode} language="text" />
+											<CodeBlock code={feladat.testCode} />
 										</div>
 									</details>
 								)}
