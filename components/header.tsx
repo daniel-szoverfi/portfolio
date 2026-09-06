@@ -31,6 +31,10 @@ const page_links = [
 				name: "Feladatok",
 				href: "/feladatok",
 			},
+			{
+				name: "Időjárás",
+				href: "/idojaras",
+			},
 		],
 	},
 ];
